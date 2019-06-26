@@ -1,0 +1,11 @@
+##Quick Recap
+Required components for the electronics are:
+1 Sensors(O2,Co2,Temperature,Pressure).
+2 Logic Boards to run multi-parallel subsystems having one parent board (pi, uno, mega).
+3 An LCD display (already selected link in drive)
+4 Some robust buttons (can be designed by ourselves if needed to).
+5 Led light strips(for lighting and other safety purposes).
+6  A custom designed PCB for power distribution and other purposes.
+7 For wires we'll try to go for silver lamination(more research required) or the standard wires as required by NASA.
+8 Closure(made up of PEI) will consists of coils, and fans(links are in the drive) and may be sinks.
+9
