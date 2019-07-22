@@ -8,4 +8,16 @@ Required components for the electronics are:
 6  A custom designed PCB for power distribution and other purposes.
 7 For wires we'll try to go for silver lamination(more research required) or the standard wires as required by NASA.
 8 Closure(made up of PEI) will consists of coils, and fans(links are in the drive) and may be sinks.
-9
+
+
+I2C is a very commonly used standard designed to allow one chip to talk to another. So, since the Raspberry Pi 
+can talk I2C we can connect it to a variety of I2C capable chips and modules.
+The I2C bus allows multiple devices to be connected to your Raspberry Pi, each with a unique address, that can 
+often be set by changing jumper settings on the module. It is very useful to be able to see which devices are 
+connected to your Pi as a way of making sure everything is working.
+
+Read Data from Multiple Arduinos with a Raspberry Pi B+ using I2C and Node.js 
+
+https://learn.adafruit.com/adafruits-raspberry-pi-lesson-4-gpio-setup/configuring-i2c
+ 
+ above link provides the tutorial for the i2c setup for our electronics on board
